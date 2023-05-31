@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_calendar"
+        android:title="Календарь" />
+    <item
+        android:id="@+id/menu_task"
+        android:title="Задания/События" />
+    <item
+        android:id="@+id/menu_analitics"
+        android:title="Аналитика" />
+    <item
+        android:id="@+id/menu_complete"
+        android:title="Завершенные задания" />
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Настройки" />
+</menu>

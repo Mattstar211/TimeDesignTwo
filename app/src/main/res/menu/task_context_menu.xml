@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_start"
+        android:title="Начать" />
+    <item
+        android:id="@+id/menu_stop"
+        android:title="Пауза" />
+    <item
+        android:id="@+id/menu_complete"
+        android:title="Завершить" />
+    <item
+        android:id="@+id/menu_del"
+        android:title="Удалить" />
+    <item
+        android:id="@+id/menu_restart"
+        android:title="Возобновить" />
+</menu>

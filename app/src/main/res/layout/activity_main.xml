@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Шапка экрана -->
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header_color"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/menuBtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@android:drawable/ic_menu_sort_by_size" />
+
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Календарь событий"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        style="@android:style/Widget.DeviceDefault.CalendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_layout"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:id="@+id/body_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendarView"
+        android:background="@color/header_color"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/bodyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мои задачи"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/taskList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/body_layout"></ListView>
+</RelativeLayout>

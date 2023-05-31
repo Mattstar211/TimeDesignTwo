@@ -1,0 +1,34 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="theme_options">
+        <item>Как в системе</item>
+        <item>Темная</item>
+        <item>Светлая</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>system</item>
+        <item>dark</item>
+        <item>light</item>
+    </string-array>
+    <string-array name="header_color_entries">
+        <item>Зеленый</item>
+        <item>Синий</item>
+        <item>Красный</item>
+    </string-array>
+
+    <string-array name="header_color_values">
+        <item>holo_green_light</item>
+        <item>holo_blue_light</item>
+        <item>holo_red_light</item>
+    </string-array>
+</resources>
